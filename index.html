@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <h1>LIUBOV SVIATTSEVA<br>
+                    Future Front-End Developer
+                </h1>
+                <img src="./assets/img/rafael-izuru-avatar.png" class="img-main" alt="avatar">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p><strong>Location:</strong> Moscow, Russia<br>
+                    <strong>Phone:</strong> +7 (926) 787-09-30<br>
+                   <strong>Email:</strong> <a href="mailto:raf.izuru@gmail.com" class="main-link">raf.izuru@gmail.com</a><br>
+                   <strong>GitHub:</strong> <a href="https://github.com/rafaelizuru" class="main-link">RafaelIzuru</a><br>
+                   <strong>Discord:</strong> Liubov Sviattseva (@RafaelIzuru)</p>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2> 
+                <p>I am 26 years old. I am a design technologist. I work as a brand manager. Finally, in 2021, I realized that I wanted to become a Front-End Developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Html</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2> 
+                <pre><code>.section-profile {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 30px;
+    font-size: 20px;
+    color: #026b5d;
+}
+                </code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2> 
+                <p>RS Schools Course <a href="https://rs.school/js-stage0/" class="main-link">«JS / FRONT-END. STAGE 0»</a> (in progress)</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2> 
+                <p><a href="https://rafaelizuru.github.io/rsschool-cv/cv" class="main-link">CV (сurriculum vitae)</a></p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2> 
+                <p>College of Automation and Information Technologies No. 20, Design Technologist</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2> 
+                <p>Pre-Intermediate (A2)</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="section-footer">
+            <p>© 2022 by <a href="https://github.com/rafaelizuru" class="footer-link">Liubov Sviattseva</a></p>
+            <a href="https://rs.school/"><img src="./assets/img/rs_school_js.svg" class="img-footer" alt="RSSchool-logo"></a>
+            <p><a href="https://rs.school/js-stage0/" class="footer-link">Pre-School «JavaScript/Front-end. Stage 0</a></p>
+        </section>
+    </footer>
 </body>
 </html>
